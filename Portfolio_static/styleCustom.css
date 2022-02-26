@@ -1,5 +1,5 @@
 body {
- background-color: #020A00;
+ background-color: #020C01;
   margin: 0;
   font-family: 'Sora', sans-serif;
 }
@@ -39,7 +39,7 @@ header{
 }
 
 .nav_right a:hover{
-    background-color: #020A00;
+    background-color: #020C01;
     color: #DB3304;
     padding: 10px 20px;
     border-radius: 15px;
