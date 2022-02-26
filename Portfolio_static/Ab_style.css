@@ -1,5 +1,5 @@
 body {
- background-color: #020A00;
+ background-color: #020C01;
   margin: 0;
   font-family: 'Sora', sans-serif;
 }
@@ -40,7 +40,7 @@ header{
 }
 
 .nav_right a:hover{
-    background-color: #020A00;
+    background-color: #020C01;
     color: #DB3304;
     padding: 10px 20px;
     border-radius: 15px;
@@ -49,7 +49,7 @@ header{
 .nav_right :last-child{
     padding: 10px 20px;
     background-color: #DB3304;
-    color: #020A00;
+    color: #020C01;
     border-radius: 15px;
 }
 main{
@@ -105,7 +105,7 @@ main{
 .skill-bars .bar .progress-line{
   height: 10px;
   width: 100%;
-  background: #020A00;
+  background: #020C01;
   transform: scaleX(0);
   transform-origin: left;
   border-radius: 10px;
@@ -159,7 +159,7 @@ main{
   top: -28px;
   right: 0;
   font-weight: 500;
-  background: #020A00;
+  background: #020C01;
   color: #fff;
   padding: 1px 8px;
   font-size: 12px;
