@@ -1,86 +1,212 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Home</title>
-		<link rel= "stylesheet" href="Ab_style.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-  		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  		<link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
-  		<link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
-  		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-  		<link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
-  		<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	</head>
-<body>
-	<header>
-		<nav class="nav_left">
-			<a href="https://khulan13.github.io/project1/Portfolio_static/homeCustom.html">KH.</a>
-		</nav>
-		<nav class="nav_right">
-			<a href="/">About me</a> 
-			<a href="/">Projects</a> 
-			<a href="/">Contact</a> 
-			<a href="/">Download CV</a>
-		</nav>
-	</header>
-	<main>
-        <div class="text-zone2">
-            <div id="header">
-                <h2>ABOUT <span style="color:#DB3304">ME</span><img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/81/female-technologist-type-1-2_1f469-1f3fb-200d-1f4bb.png" alt="girl" width="50" height="50"></h2>
-            </div>
+.font_change{
+  font-family:'Shrikhand', cursive;;
+  font-size: 72px;
+  color:#DB3304;
+  letter-spacing: -22px;
+}
+body {
+ background-color: #020C01;
+  margin: 0;
+  font-family: 'Sora', sans-serif;
+}
 
-            <p>Hello! I'm a sophomore student at UFE, and am majoring in Information System.
-            </p>
-            <p>
-                I'm stuyding to become a web developer and, for now, have a serious interest in <br> both back-end and front-end development. I have studied C++, Java for the last <br>semesters, and now studying for HTML and C# at my school.<br>I'm such an optimistic person who tries to enjoy the process of everything. I 
-            </p>
-            <p>
-                I'm always ready for the new opportunities.
-            </p>
-        </div>
-       <div class="skill-bars">
-    <div class="bar">
-      <div class="info">
-        <span>HTML</span>
-      </div>
-      <div class="progress-line html">
-        <span></span>
-      </div>
-    </div>
-    <div class="bar">
-      <div class="info">
-        <span>CSS</span>
-      </div>
-      <div class="progress-line css">
-        <span></span>
-      </div>
-    </div>
-    <div class="bar">
-      <div class="info">
-        <span>Java</span>
-      </div>
-      <div class="progress-line jquery">
-        <span></span>
-      </div>
-    </div>
-    <div class="bar">
-      <div class="info">
-        <span>Python</span>
-      </div>
-      <div class="progress-line python">
-        <span></span>
-      </div>
-    </div>
-    <div class="bar">
-      <div class="info">
-        <span>MySQL</span>
-      </div>
-      <div class="progress-line mysql">
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <div class="text-zone3">
-        	<div id="header2">
-        		<h3> OTHER <span style="color:#DB3304">INTERESTS</span></h3>
+header{
+	margin-top: 20px;
+  background-color: 
+}
+
+.nav_left{
+    display: inline;
+    margin-left: 30px;
+}
+.nav_left a{
+ font-family: 'Shrikhand', cursive;
+  float: left;
+  color: #DB3304;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 47px;
+}
+.nav_right{
+   font-family: 'Sora', sans-serif;
+    float: right;
+    color: #E4DEAE;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 15px;
+    margin-right: 30px;
+}
+.nav_right a{
+    color: #C2B59B;
+    text-decoration: none;
+    /* margin-right: 35px; */
+    padding: 10px 20px;
+    color: #E4DEAE;
+    
+}
+
+.nav_right a:hover{
+    background-color: #020C01;
+    color: #DB3304;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.nav_right :last-child{
+    padding: 10px 20px;
+    background-color: #DB3304;
+    color: #020C01;
+    border-radius: 15px;
+}
+main{
+   color: #E4DEAE;
+}
+.text_zone2 {
+    margin-left: 25px; 
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    color: #E4DEAE; 
+}
+.text-zone2 h2{
+  margin-left: 25px; 
+  margin-top: 180px;
+  font-size: 48px;
+}
+.text-zone2 p{
+  margin-left: 25px; 
+  font-size: 16px;
+}
+.text_zone3 {
+    margin-left: 25px; 
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    color: #E4DEAE; 
+}
+.text-zone3 h3{
+  margin-left: 25px; 
+  margin-top: 200px;
+  font-size: 48px;
+}
+.text-zone3 p{
+  margin-left: 25px; 
+  font-size: 16px;
+}
+.skill-bars{
+  float: right;
+  margin-top: -200px;
+  padding: 25px 30px;
+  width: 600px;
+  border-radius: 10px;
+}
+.skill-bars .bar{
+  margin: 20px 0;
+}
+.skill-bars .bar:first-child{
+  margin-top: 0px;
+}
+.skill-bars .bar .info{
+  margin-bottom: 5px;
+}
+.skill-bars .bar .info span{
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100%{
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  background: #020C01;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #DB3304;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line.html span{
+  width: 30%;
+}
+.bar .progress-line.css span{
+  width: 40%;
+}
+.bar .progress-line.jquery span{
+  width: 50%;
+}
+.bar .progress-line.python span{
+  width: 60%;
+}
+.bar .progress-line.mysql span{
+  width: 80%;
+}
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #020C01;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+.progress-line.html span::after{
+  content: "30%";
+}
+.progress-line.css span::after{
+  content: "40%";
+}
+.progress-line.jquery span::after{
+  content: "50%";
+}
+.progress-line.python span::after{
+  content: "60%";
+}
+.progress-line.mysql span::after{
+  content: "80%";
+}
