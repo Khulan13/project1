@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script >
+               function validateForm() {
+                var x = document.form["name"]["email"]["phone"]["message"].value;
+                if (x == "" || x == null) {
+                alert("Name must be filled out");
+                return false;
+  }
+}
+           </script>
+        <title>Home</title>
+        <link rel= "stylesheet" href="contactStyele.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <header>
+        <nav class="nav_left">
+            <a href="https://khulan13.github.io/project1/Portfolio_static/homeCustom.html">KH.</a>
+        </nav>
+        <nav class="nav_right">
+            <a href="https://khulan13.github.io/project1/Portfolio_static/About_me.html" rel="abmepage">About me</a> 
+            <a href="/">Projects</a> 
+            <a href="/">Contact</a> 
+            <a href="/">Download CV</a>
+        </nav>
+    </header>
+    <main>
+        <div class="map">
+            <<img src="img/map.png" alt="image" length="650" width="750">
+        </div>
+        <div class="textZone">
+            <h1>CONTACT//<span style="color:#DB3304">ME</span></h1>
+            <p>I'm interested in paid interships at the tech companys, because I'm only a student now. But I'm always ready to work on any projects while learning from the professionals. However, If you have other request or question, don't hesitate to use the form.</p>
+        </div>
+        <div class="form" >
+                <form action="" onsubmit="return validateForm()" method="post" required>
+                    <input type="text" name="name" placeholder="Name" required="required"> 
+                    <input type="email" name="email" placeholder="Email" required="required">
+                    <input type="tel" name="phone" placeholder="Phone number" required="required">
+                    <textarea name="message" placeholder="Message" required="required"></textarea>
+                    <button onclick="return validateForm()" type="submit" value>Send Message!</button>
+                </form>
+            </div>
+        </main>
+           <script >
+               function validateForm() {
+                var x = document.form["name"]["email"]["phone"]["message"].value;
+                if (x == "" || x == null) {
+                alert("Name must be filled out");
+                return false;
+  }
+}
+           </script>
+       </body>
+    </body>
+     
