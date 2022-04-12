@@ -1,6 +1,6 @@
 .font_change{
  font-family: 'Shrikhand', cursive;
-  font-size: 78px;
+  font-size: 85px;
   color:#DB3304;
   letter-spacing: 6px;
 }
@@ -11,18 +11,20 @@ body {
 }
 
 header{
-	margin-top: 20px; 
+  margin-top: 20px; 
 }
 
-.nav_left{
-    display: inline;
-    margin-left: 50px;
+.navbar-inverse{
+  background-color: #020C01;
+  margin-top: -20px;
 }
-.nav_left a{
+.navbar-header{
+    display: inline;
+    margin-left: 20px;
+}
+.navbar-header a{
   font-family: 'Shrikhand', cursive;
-  float: left;
   color: #DB3304;
-  padding: 12px 16px;
   text-decoration: none;
   font-size: 47px;
 }
@@ -57,83 +59,54 @@ header{
     color: #020C01;
     border-radius: 15px;
 }
-#home{
+#landing-container{
+  background-color: #020C01;
+  margin-left: 0px;
+  margin-right: -100px;
+  background-size: cover;
+}
+.home{
     display: flex;
     align-items: center;
-    padding-left: 1.5rem;
     background-color: #020C01;
+    background-size: cover;
     width: auto;
-    height: 90vh;
+    height: 88vh;
 }
-#home h1{
-  font-size: 70px;
-  margin-top: 10%;
+.home h1{
+  margin-left: 20px;
+  font-size: 80px;
   color: #E4DEAE;
 }
-#home p{
-  text-align: center;
-      color: white;
+.container-fluid {
+  width:100%;max-width:none;padding:0;
 }
 
-.contact-button{
+/*#button{
     text-decoration: none;
     width: 100%;
     max-width: 200px;
     height: 40px;
-    display: block;
+    display: flex;
     line-height: 40px;
     letter-spacing: 3px;
-    position: relative;
     text-align: center;
     color: #DB3304;
-    margin-top: 50px;
+    margin-top: 100px;
+    border-style:solid;
+    border-radius: 0;
+    border-color:  #DB3304;
+    padding: 0px;
 }
-.contact-button div{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition:  all .3s ease-in-out;
-}
-.contact-button span.bg{
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    left: -5px;
-    top: 0;
-    transition: all .3s ease-in-out;
-    background-color: #DB3304;
-    transform: skewX(-19deg);
-    
-}
-.contact-button:hover span.bg{
+
+.btn:hover{
     width: 110%;
-}
-.contact-button span.base{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    border: 1px solid #DB3304;
-    box-sizing: border-box;
-    
-}
-.contact-button span.text{
-    font-family: 'Sora', sans-serif;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    
-}
-.contact-button:hover span.text{
     color: #1d1d1d;
-}
+}*/
 
 .icon-bar {
   float: right;
- margin-top: -220px;
+ margin-top: -260px;
 }
 
 .icon-bar a {
@@ -148,11 +121,20 @@ header{
   color :#E4DEAE;
 }
 
-.header2 h2{
+#projects-container{
+
+  background-color: #020C01;
+  margin-top:-50px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+}
+#projects-container h2{
+  font:'Sora', sans-serif;
   text-align: center;
   color: #DB3304;
   margin-left: 20px; 
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 47px;
 }
 
@@ -217,7 +199,6 @@ header{
 
 .footer-distributed{
   background: #020C01;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
   font-family: 'Sora', sans-serif;
@@ -326,7 +307,6 @@ section {
   border-radius: 3px;
   box-sizing: border-box;
   background-color:  #DB3304;
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
   border: none;
   resize: none;
 
@@ -425,5 +405,6 @@ section {
     float: none;
   }
 }
+
 
 
