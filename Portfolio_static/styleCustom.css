@@ -4,13 +4,13 @@
   color:#DB3304;
   letter-spacing: 6px;
 }
-body {
+.body {
  background-color: #020C01;
   margin: 0;
   font-family: 'Sora', sans-serif;
 }
 
-header{
+.header{
   margin-top: 20px; 
 }
 
@@ -207,7 +207,7 @@ header{
   overflow: hidden;
 }
 
-section {
+.section {
   width: 100%;
   display: inline-block;
   background: #ccc;
