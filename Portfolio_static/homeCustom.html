@@ -11,21 +11,32 @@
         <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     </head>
 <body>
     <header>
-        <nav class="nav_left">
-            <a href="https://khulan13.github.io/project1/Portfolio_static/homeCustom.html">KH.</a>
-        </nav>
-        <nav class="nav_right">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+             <div class="navbar-header">
+                <a class="navbar-brand logo" href="https://khulan13.github.io/project1/Portfolio_static/homeCustom.html">KH.</a>
+            </div>
+    
+            <div class="navbar nav_right">
             <a href="https://khulan13.github.io/project1/Portfolio_static/About_me.html" rel="abmepage">About me</a> 
             <a href="/">Projects</a> 
             <a href="https://khulan13.github.io/project1/Portfolio_static/contact.html">Contact</a> 
             <a href="/">Download CV</a>
         </nav>
+           </div>
+        </nav>
     </header>
     <main>
-        <div id="home">
+        <div id="landing-container" class="container-fluid align-items-center">
+        <div class="container home">
+            <h1>HI, <br> I'M <span class="font_change">KH</span>ULAN, <br> A STUDENT OF ISD.</h1>            
+        </div>
+    </div>
+        <!-- <div id="home">
             <div class="text-zone">
             <h1>HI, <br> I'M <span class="font_change">KH</span>ULAN, <br> A STUDENT OF ISD.</h1>
             <br>
@@ -39,14 +50,15 @@
                 </div>
             </a>
         </div> 
-         </div>
+         </div> -->
+
  <div class="icon-bar">
     <a href="https://www.facebook.com/khulan.munkhbat.98/" class="facebook"><i class="fa fa-facebook"></i></a>
     <a href="https://www.instagram.com/khulan13_/" class="instagram"><i class="fa fa-instagram"></i></a>
     <a href="https://www.linkedin.com/in/khulan-munkhbat-10469019a/" class="linkedin"><i class="fa fa-linkedin"></i></a>
     <a href="https://github.com/Khulan13" class="github"><i class="fa fa-github"></i></a>
   </div>
-  <div class="Projects">
+  <div id="projects-container" class="container-fluid">
     <div class="header2">
         <h2>MY PROJECTS</h2>
   </div>
@@ -134,6 +146,7 @@
             <!-- magic wall 10 -->
         </ul>
     </div>
+
  <footer class="footer-distributed">
             <div class="footer-left">
                 <h3>KH.</h3>
