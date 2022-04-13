@@ -14,21 +14,21 @@
   margin-top: 20px; 
 }
 
-.navbar-inverse{
+.mynav{
   background-color: #020C01;
   margin-top: -20px;
 }
-.navbar-header{
+.mynav .container-fluid a{
     display: inline;
     margin-left: 20px;
 }
-.navbar-header a{
+.mynav .container-fluid a{
   font-family: 'Shrikhand', cursive;
   color: #DB3304;
   text-decoration: none;
   font-size: 47px;
 }
-.nav_right{
+.mynav .nav-item a{
    font-family: 'Sora', sans-serif;
     float: right;
     color: #E4DEAE;
@@ -37,27 +37,12 @@
     padding-top: 15px;
     margin-right: 30px;
 }
-.nav_right a{
-    color: #C2B59B;
+.nav-item a{
     text-decoration: none;
     /* margin-right: 35px; */
     padding: 10px 20px;
-    color: #E4DEAE;
-    
-}
-
-.nav_right a:hover{
-    background-color: #020C01;
     color: #DB3304;
-    padding: 10px 20px;
-    border-radius: 15px;
-}
-
-.nav_right :last-child{
-    padding: 10px 20px;
-    background-color: #DB3304;
-    color: #020C01;
-    border-radius: 15px;
+    
 }
 #landing-container{
   background-color: #020C01;
