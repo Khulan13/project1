@@ -5,18 +5,18 @@
   color:#DB3304;
   letter-spacing: -22px;
 }
-body {
+.body {
  background-color: #020C01;
   margin: 0;
   font-family: 'Sora', sans-serif;
 }
 
-header{
+.header{
 	margin-top: 20px;
   background-color: 
 }
 
-main{
+.main{
   background-color: #020C01;
   font-family: 'Sora', sans-serif;
 
@@ -59,7 +59,7 @@ main{
 }
 
 
-main{
+.main{
    color: #E4DEAE;
 }
 .text_zone2 {
