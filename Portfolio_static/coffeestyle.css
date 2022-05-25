@@ -352,4 +352,6 @@ font-family: 'Sora',sans-serif;
   .homephoto img {
     display: none;
   }
+  .neg button{
+    display:none;
 }
