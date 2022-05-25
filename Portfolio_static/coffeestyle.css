@@ -1,0 +1,355 @@
+#second{
+font-family: 'Sora', sans-serif;
+}
+.home{
+  margin: 0px;
+  background-image: url(img/background.png);
+  background-attachment: absolute;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 800px;
+}
+/*body {
+  margin: 0px;
+  background-image: url(img/background.png);
+  background-attachment: absolute;
+  background-size: cover;
+  display: block;
+}*/
+.mynav .container-fluid img{
+
+}
+.mynav .container-fluid a{
+    display: inline;
+    margin-left: 20px;
+}
+.mynav .container-fluid a{
+font-family: 'Sora',sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top:-300px;
+    margin-right: 30px;
+}
+.mynav .nav-item a{
+   font-family: 'Sora',sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top:-200px;
+    margin-right: 30px;
+}
+.mynav.logo{
+  
+}
+.mynav .nav-item a:hover{
+  color: #DB3304;
+  }
+.collapse.navbar-collapse.menu {
+  font-weight: 600;
+  color:;
+}
+
+.collapse.navbar-collapse.menu a {
+    color: #E4DEAE;
+}
+#main{
+  background-image: url("background.png")
+}
+
+.card {
+    border: none;
+    border-color: white;
+    border-radius: 10px}
+
+
+.icon {
+    width: 65px;
+    height: 65px;
+    background-color: #EBE9E5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px
+}
+
+.badge span {
+    width: 60px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    color: #B2AFA9;
+    justify-content: center;
+    align-items: center
+}
+.mt-5 h3{
+  font-size:20px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -30px;
+}
+.mt-5 p{
+  font-size:13px;
+  margin-top:-43px;
+}
+.text1 {
+    font-size: 10px;
+    font-weight: 600
+}
+
+.text2 {
+    color: #a5aec0
+}
+.neg{
+  margin-top: 100px;
+}
+.neg h2{
+  margin-top: 150px;
+  margin-left:80px;
+  font-size: 55px;
+  font-family: 'Libre Baskerville', serif;
+  color: #BC9667;
+  letter-spacing: 3px; 
+  line-height: 90px;
+}
+.neg p{
+  color:white;
+  font-size: 14px;
+  margin-left:80px;
+  text-align: justify;
+  font-family: 'Sora';
+}
+.neg button{
+  background-color: #BB9668;
+  color:white;
+  border-color: black;
+  margin-left:80px;
+  padding: 14px 50px;
+  margin-top: 40px;
+  font-size: 18px;
+  font-family:'Sora';
+}
+.gurav h2{
+  margin-top: 26px;
+
+  font-family:'Libre Baskerville', serif;
+}
+.gurav p{
+   font-family:'Sora';
+   font-size: 14px;
+}
+.gurav button{
+  background-color: #BB9668;
+  color:white;
+  border-color: #fff;
+  padding: 10px 40px;
+  font-size: 15px;
+  font-family:'Sora';
+}
+.zurag img{
+  margin-top: 30px;
+  margin-left: 70px; 
+  width:500px;
+  height:330px;
+}
+.durviinneg h3{
+  text-align: center;
+  margin-top: 100px;
+   font-family:'Libre Baskerville', serif;
+}
+.tav h6{
+  text-align: center;
+  font-size:30px;
+   font-family:'Libre Baskerville', serif;
+}
+.card-block h7{
+  font-size:20px;
+  font-family: 'Sora';
+}
+.card-block p{
+  font-size:17px;
+  font-family: 'Sora';
+}
+.card-block h8{
+  font-size:20px;
+  font-family: 'Sora';
+  color: #BB9668;
+}
+.people h9{
+  text-align: center;
+  font-size:30px;
+   font-family:'Libre Baskerville', serif;
+   margin-bottom: 50px;
+}
+.testimonials-clean{
+  margin-top: 100px;
+}
+.button button{
+  position:flex;
+  margin-top: 50px;
+  margin-left: 580px;
+  background-color: #BB9668;
+  color:white;
+  border-color: transparent;
+  padding: 12px 30px;
+  font-size: 15px;
+  font-family:'Sora';
+  margin-bottom: 100px;
+}
+.homephoto img{
+  margin top: 200px;
+}
+.card-body{
+  height:80px;
+}
+.card-body h5{
+  font-size: 16px;
+}
+.card-body button1{
+  background-color: #BB9668;
+  color:white;
+  border-color: #fff;
+  padding: 3px 15px;
+  font-size: 13px;
+  font-family:'Sora' !important;
+  float:left;
+} 
+.card-body button2{
+  background-color: #fff;
+  color:black
+  border-color: #BB9668 !important;
+  border-style: solid;
+  padding: 3px 15px;
+  font-size: 13px;
+  font-family:'Sora' !important;
+  float:right;
+} 
+.spacebutton4{
+  background-color: #fff;
+  color:black
+  border-color: #BB9668 !important;
+  border-style: solid;
+  padding: 3px 15px;
+  font-size: 13px;
+  font-family:'Sora' !important;
+  float:right;
+}
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    box-shadow: none;
+     
+}
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    margin-top:20px;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+.carousel-indicators .active {
+    background-color: white;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+
+.testimonials-clean .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+​
+.testimonials-clean .intro p {
+  margin-bottom:0;
+}
+​
+.testimonials-clean .people {
+  padding:50px 0 20px;
+}
+​
+.testimonials-clean .item {
+  margin-bottom:32px;
+}
+​
+@media (min-width:768px) {
+  .testimonials-clean .item {
+    height:220px;
+  }
+}
+​
+.testimonials-clean .item .box {
+  padding:30px;
+  background-color:white;
+  position:relative;
+}
+​
+.testimonials-clean .item .box:after {
+  content:'';
+  position:absolute;
+  left:30px;
+  bottom:-24px;
+  width:0;
+  height:0;
+  border:15px solid;
+  border-width:12px 15px;
+  border-top-color:black;
+}
+​
+.testimonials-clean .item .author {
+  margin-top:28px;
+  padding-left:25px;
+}
+​
+.testimonials-clean .item .name {
+  font-weight:bold;
+  margin-bottom:2px;
+  color:inherit;
+}
+​
+.testimonials-clean .item .title {
+  font-size:13px;
+  color:#9da9ae;
+}
+​
+.testimonials-clean .item .description {
+  font-size:15px;
+  margin-bottom:0;
+}
+​
+.testimonials-clean .item img {
+  max-width:40px;
+  float:left;
+  margin-right:12px;
+  margin-top:-5px;
+}
+.author{
+  display:inline;
+}
+.checked {
+  color: orange;
+}
+@media (max-width:1080px) {
+  .homephoto img {
+    display: none;
+  }
+}
